@@ -6,23 +6,23 @@ using KvizHub.DTO;
 
 namespace KvizHub.DTO.Quiz
 {
-    public class CQuiz
+    public class NewQuizDTO
     {
         [Required]
         [MinLength(1)]
         [MaxLength(100)]
-        public string Title { get; set; }
+        public string? Title { get; set; }
         [Required]
         [MinLength(10)]
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [Required]
-        public string Category { get; set; }
+        public Difficulty difficulty { get; set; }
         [Required]
-        public int TimeLimit { get; set; }
+        public TimeSpan Limit { get; set; }
         [Required]
         [MinLength(1)]
-        public List<CQuestion> Questions { get; set; }
+        public List<NewQuestionDTO>? Questions { get; set; }
 
     }
 }

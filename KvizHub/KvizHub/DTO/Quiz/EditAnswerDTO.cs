@@ -3,14 +3,15 @@
 
 namespace KvizHub.DTO.Quiz
 {
-    public class UAnswer
+    public class EditAnswerDTO
     {
+        public int OptionKey { get; set; }
         [Required]
         [MinLength(1)]
         [MaxLength(200)]
-        public string Text { get; set; }
+        public string? ResponseLabel { get; set; }
 
         [Required]
-        public bool IsSelected { get; set; }
+        public bool? Correct { get; set; }
     }
 }

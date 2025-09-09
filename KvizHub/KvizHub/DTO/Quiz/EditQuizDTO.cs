@@ -6,25 +6,25 @@ using KvizHub.Enums;
 
 namespace KvizHub.DTO.Quiz
 {
-    public class UQuiz
+    public class EditQuizDTO
     {
         [Required]
         [MinLength(3)]
         [MaxLength(100)]
-        public string Title { get; set; }
+        public string? TitleLabel { get; set; }
 
         [Required]
         [MinLength(10)]
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string? DescriptionLabel { get; set; }
 
         [Required]
         [MinLength(10)]
         [MaxLength(500)]
-        public string Category { get; set; }
+        public Difficulty difficulty { get; set; }
 
         [Required]
-        public int TimeLimit { get; set; }
-        public bool IsPublished { get; set; }
+        public TimeSpan? MaxDuration { get; set; }
+        public bool? IsPublished { get; set; }
     }
 }
