@@ -2,7 +2,7 @@
 
 namespace KvizHub.DTO.Quiz
 {
-    public class QuestionAnswer
+    public class QuestionAnswerDTO
     {
         [Required]
         public int QuestionId { get; set; }

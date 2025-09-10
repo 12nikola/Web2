@@ -2,13 +2,13 @@
 
 namespace KvizHub.DTO.Quiz
 {
-    public class SolQuiz
+    public class SolQuizDTO
     {
         [Required]
         public TimeSpan MaxDuration { get; set; }
 
         [Required]
-        public List<SolQuestion>? solves { get; set; }
+        public List<SolQuestionDTO>? solves { get; set; }
 
     }
 }
