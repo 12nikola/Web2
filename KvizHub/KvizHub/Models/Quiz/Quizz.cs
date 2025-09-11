@@ -1,7 +1,6 @@
-
-﻿namespace KvizHub.Models
+namespace KvizHub.Models.Quiz
 {
-    public class Quiz
+    public class Quizz
     {
         public int Id { get; set; }
         public string? Title { get; set; }

@@ -1,3 +1,6 @@
+using KvizHub.Interfaces;
+using KvizHub.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IStorageService, StorageService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<IAuthToken, AuthTokenService>();
+builder.Services.AddScoped<IQuestionService, QuestionService>();
 
 var app = builder.Build();
 
