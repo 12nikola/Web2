@@ -2,7 +2,7 @@
 
 namespace KvizHub.Models.Base
 {
-    public abstract class QuizQuestionDetailsBase
+    public abstract class QuizQuestionDetailBase
     {
         public int QuizQuestionDetailsId { get; set; }
         public QuizQuestionInfo? QuizQuestion { get; set; }

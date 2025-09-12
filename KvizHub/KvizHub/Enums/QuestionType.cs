@@ -6,9 +6,6 @@
         SingleChoice,
         MultipleChoice,
         TrueFalse,
-        ShortAnswer,
         FillInTheBlank,
-        Matching,
-        Essay
     }
 }

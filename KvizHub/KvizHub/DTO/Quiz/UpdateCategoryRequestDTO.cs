@@ -2,7 +2,7 @@
 
 namespace KvizHub.DTO.Quiz
 {
-    public class UpdateCategoryRequest
+    public class UpdateCategoryRequestDTO
     {
         [Required]
         [MinLength(3)]
