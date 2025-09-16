@@ -3,7 +3,7 @@ using KvizHub.Models.Quiz_Response;
 
 namespace KvizHub.Models.Answers
 {
-    public class MultipleOptionAnswer:ResponseBase
+    public class BooleanAnswer:ResponseBase
     {
         public int QuestionDetailsId { get; set; }
         public BooleanDetails? QuestionDetails { get; set; }

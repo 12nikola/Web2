@@ -5,6 +5,6 @@ namespace KvizHub.Models.Quiz_Response
 {
     public class BooleanDetails: QuizQuestionDetailBase
     {
-        public MultipleOptionAnswer? CorrectAnswer { get; set; }
+        public BooleanAnswer? CorrectAnswer { get; set; }
     }
 }

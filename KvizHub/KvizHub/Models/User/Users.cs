@@ -1,6 +1,6 @@
 ﻿namespace KvizHub.Models.User
 {
-    public class User
+    public class Users
     {
         public string? Username { get; set; }
         public string? Email { get; set; }

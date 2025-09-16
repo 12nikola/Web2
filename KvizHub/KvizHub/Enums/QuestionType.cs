@@ -3,9 +3,9 @@
 {
     public enum QuestionType
     {
-        SingleChoice,
-        MultipleChoice,
-        TrueFalse,
-        FillInTheBlank,
+        SingleOption,
+        MultipleOption,
+        Boolean,
+        TextEntry,
     }
 }
