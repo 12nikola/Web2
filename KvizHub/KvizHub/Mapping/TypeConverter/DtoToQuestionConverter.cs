@@ -4,6 +4,7 @@ using KvizHub.Enums;
 using KvizHub.Mapping.ConversionModel;
 using KvizHub.Models.Answers;
 using KvizHub.Models.Quiz_Details;
+using KvizHub.Models.Quiz_Information;
 using KvizHub.Models.Quiz_Response;
 using QuizWebServer.Exceptions;
 
@@ -15,11 +16,11 @@ namespace QuizWebServer.Mapping.Converters
         {
             var model = new QuestionConversionModel
             {
-                Info = new QuestionDetails
+                Info = new QuizQuestionInfo
                 {
-                    Text = s.Text,
-                    QuestionCategoryID = s.QuestionCategoryID,
-                    QuestionDetailsType = s.Type,
+                    QuestionText = s.Label,
+                    CategoryId = s.CategoryId,
+                    QuestionType = s.Type,
                 }
             };
 
@@ -41,7 +42,7 @@ namespace QuizWebServer.Mapping.Converters
                     QuizQuestionId = 0,
                 };
 
-                ((SingleOptionDetails)model.Details).Answers.ForEach(x => x.SingleOptionDetails = (SingleOptionDetails)model.Details);
+                ((SingleOptionDetails)model.Details).a.ForEach(x => x.SingleOptionDetails = (SingleOptionDetails)model.Details);
             }
             else if (s.Type == QuestionType.MultipleOption)
             {
@@ -72,8 +73,8 @@ namespace QuizWebServer.Mapping.Converters
                     CorrectAnswer = new BooleanAnswer
                     {
                         ResponseId = 0,
-                        Content = (bool)s.ExpectedTrueFalse ? "True" : "False",
-                        Correct = (bool)s.ExpectedTrueFalse
+                        Content = s.ExpectedTextChoices,
+                        Correct = (bool)s.ExpectedTrueFalse ? true : false
                     }
                 };
 

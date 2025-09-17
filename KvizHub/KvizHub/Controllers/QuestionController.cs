@@ -22,7 +22,7 @@ namespace KvizHub.Controllers
         [Authorize]
         public IActionResult FetchQuestion(int id)
         {
-            var dto = _questionService.GetQuestion(id);
+            var dto = _questionService.GetById(id);
             return Ok(dto);
         }
 
@@ -30,7 +30,7 @@ namespace KvizHub.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult FetchQuestionOptions(int id)
         {
-            var dto = _questionService.GetQuestionAnswers(id);
+            var dto = _questionService.GetAnswers(id);
             return Ok(dto);
         }
 
@@ -38,7 +38,7 @@ namespace KvizHub.Controllers
         [Authorize]
         public IActionResult FetchByQuiz(int quizId)
         {
-            var list = _questionService.GetQuestionsForQuiz(quizId);
+            var list = _questionService.GetAllByQuizId(quizId);
             return Ok(list);
         }
 
@@ -46,7 +46,7 @@ namespace KvizHub.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult FetchWithOptions(int quizId)
         {
-            var list = _questionService.GetQuestionsWithAnswersForQuiz(quizId);
+            var list = _questionService.GetAllWithAnswersForQuiz(quizId);
             return Ok(list);
         }
 
@@ -54,7 +54,7 @@ namespace KvizHub.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult RemoveQuestion(int id)
         {
-            _questionService.DeleteQuestion(id, _quizService);
+            _questionService.Remove(id);
             return Ok();
         }
 
@@ -62,7 +62,7 @@ namespace KvizHub.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult AddQuestion(int quizId, [FromBody] NewQuestionDTO dto)
         {
-            var created = _questionService.Add(dto, quizId);
+            var created = _questionService.Add(quizId, dto);
             return Ok(created);
         }
 
@@ -70,7 +70,7 @@ namespace KvizHub.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult EditQuestion(int quizId, [FromBody] EditQuestionDTO dto)
         {
-            var updated = _questionService.Edit(dto, quizId, _quizService);
+            var updated = _questionService.Edit(quizId, dto);
             return Ok(updated);
         }
     }

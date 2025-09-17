@@ -1,14 +1,550 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikol\\Documents\\New folder\\KvizHub\\",
+  "WorkspaceRootPath": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\new folder\\kvizhub\\kvizhub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\new folder\\kvizhub\\kvizhub\\kvizhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\pageinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\pageinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\user\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\user\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\solutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\solutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\controllers\\solutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\controllers\\solutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\typeconverter\\questiontodtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\typeconverter\\questiontodtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\typeconverter\\questionsolutiontodtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\typeconverter\\questionsolutiontodtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\typeconverter\\dtotoupdatequestionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\typeconverter\\dtotoupdatequestionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\typeconverter\\dtotoquizsolutionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\typeconverter\\dtotoquizsolutionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz\\quizattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz\\quizattempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\base\\responsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\base\\responsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\base\\participantresponsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\base\\participantresponsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\base\\quizsolutiondetailbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\base\\quizsolutiondetailbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\base\\quizquestiondetailbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\base\\quizquestiondetailbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\answers\\textentryanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\answers\\textentryanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\answers\\singleoptionanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\answers\\singleoptionanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\answers\\multipleoptionanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\answers\\multipleoptionanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\answers\\booleananswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\answers\\booleananswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\typeconverter\\dtotoquestionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\typeconverter\\dtotoquestionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\servererrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\servererrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\savefailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\savefailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\requiredvaluesmissingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\requiredvaluesmissingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\invalidrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\invalidrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\entityunavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\entityunavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\entityreferenceconflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\entityreferenceconflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\entityconflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\entityconflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\deletionfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\deletionfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\exception\\accessdeniedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\exception\\accessdeniedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\isolutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\isolutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\iquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\iquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\interfaces\\iauthtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\interfaces\\iauthtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\profiles\\questionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\profiles\\questionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\conversionmodel\\questionconversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\conversionmodel\\questionconversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\profiles\\solutionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\profiles\\solutionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\profiles\\quizmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\profiles\\quizmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\profiles\\quizanswermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\profiles\\quizanswermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\profiles\\questiontypemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\profiles\\questiontypemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\conversionmodel\\quizsolutionconversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\conversionmodel\\quizsolutionconversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\mapping\\conversionmodel\\questionsolutionconversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\mapping\\conversionmodel\\questionsolutionconversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\detailsconfiguration\\booleandetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\detailsconfiguration\\booleandetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\answerconfiguration\\booleananswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\answerconfiguration\\booleananswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\answerconfiguration\\textentryanswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\answerconfiguration\\textentryanswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\answerconfiguration\\multipleoptionanswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\answerconfiguration\\multipleoptionanswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\answerconfiguration\\singleoptionanswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\answerconfiguration\\singleoptionanswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\enums\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\enums\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\useranswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\useranswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\solquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\solquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\solquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\solquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizleaderboardentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizleaderboardentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizattemptssummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizattemptssummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizattemptresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizattemptresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizattemptinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizattemptinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\quizattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\quizattemptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\questionsolutionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\questionsolutionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\questionanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\questionanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\newquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\newquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\newquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\newquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\newanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\newanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\createcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\createcategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\basicanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\basicanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\editquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\editquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\editanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\editanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\solution\\multipleoptionsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\solution\\multipleoptionsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\solution\\singleoptionsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\solution\\singleoptionsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\services\\authtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\services\\authtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\dto\\quiz\\editquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\dto\\quiz\\editquizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\stringlistrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\stringlistrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\questioncreationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\questioncreationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\minimumduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\minimumduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\filesizelimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\filesizelimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\enummembercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\enummembercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\requireproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\requireproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\validators\\fileextensioncheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\validators\\fileextensioncheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizattemptconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizattemptconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizquestionsolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizquestionsolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizquestioninfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizquestioninfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\quizconfiguration\\quizcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\quizconfiguration\\quizcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\users\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\users\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\user\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\user\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\solutionconfiguration\\singleoptionsolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\solutionconfiguration\\singleoptionsolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\solutionconfiguration\\textentrysolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\solutionconfiguration\\textentrysolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\solutionconfiguration\\multipleoptionsolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\solutionconfiguration\\multipleoptionsolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\detailsconfiguration\\singleoptiondetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\detailsconfiguration\\singleoptiondetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\detailsconfiguration\\multipleoptiondetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\detailsconfiguration\\multipleoptiondetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\useranswerconfiguration\\singleoptionuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\useranswerconfiguration\\singleoptionuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\solutionconfiguration\\booleansolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\solutionconfiguration\\booleansolutionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\useranswerconfiguration\\textentryuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\useranswerconfiguration\\textentryuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\useranswerconfiguration\\multipleoptionuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\useranswerconfiguration\\multipleoptionuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\useranswerconfiguration\\booleanuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\useranswerconfiguration\\booleanuseranswerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\user\\multipleoptionuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\user\\multipleoptionuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\user\\booleanuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\user\\booleanuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz-details\\booleandetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz-details\\booleandetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\detailsconfiguration\\textentrydetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\detailsconfiguration\\textentrydetailsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz-details\\singleoptiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz-details\\singleoptiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz-details\\multipleoptiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz-details\\multipleoptiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz-details\\textentrydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz-details\\textentrydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\kvizhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\kvizhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\infrastructure\\timespanjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\infrastructure\\timespanjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\user\\textentryuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\user\\textentryuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\user\\singleoptionuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\user\\singleoptionuseranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\solution\\booleansolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\solution\\booleansolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\solution\\textentrysolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\solution\\textentrysolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\solution\\quizquestionsolutioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\solution\\quizquestionsolutioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\models\\quiz-information\\quizquestioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\models\\quiz-information\\quizquestioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|c:\\users\\nikol\\documents\\github\\web2\\kvizhub\\kvizhub\\kvizhub.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{07AE8D95-D06C-42E3-86AA-047D844ED3EA}|KvizHub\\KvizHub.csproj|solutionrelative:kvizhub\\kvizhub.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,41 +554,1704 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\New folder\\KvizHub\\KvizHub\\Models\\User.cs",
-              "RelativeDocumentMoniker": "KvizHub\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\nikol\\Documents\\New folder\\KvizHub\\KvizHub\\Models\\User.cs*",
-              "RelativeToolTip": "KvizHub\\Models\\User.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:14:57.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KvizHub",
-              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\New folder\\KvizHub\\KvizHub\\KvizHub.csproj",
-              "RelativeDocumentMoniker": "KvizHub\\KvizHub.csproj",
-              "ToolTip": "C:\\Users\\nikol\\Documents\\New folder\\KvizHub\\KvizHub\\KvizHub.csproj",
-              "RelativeToolTip": "KvizHub\\KvizHub.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-07T18:12:01.297Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SolutionController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\SolutionController.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Controllers\\SolutionController.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\SolutionController.cs",
+              "RelativeToolTip": "KvizHub\\Controllers\\SolutionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:14:46.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\UserController.cs",
+              "RelativeToolTip": "KvizHub\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:38:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\QuizService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\QuizService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\QuizService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\QuizService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:52:52.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SolutionService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\SolutionService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\SolutionService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\SolutionService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\SolutionService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:51:40.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\StorageService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\StorageService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\StorageService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\StorageService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:52:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\UserService.cs*",
+              "RelativeToolTip": "KvizHub\\Services\\UserService.cs*",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:49:05.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\User\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\User\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\User\\LoginDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\User\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:43:13.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\User\\RegistrationDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\User\\RegistrationDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\User\\RegistrationDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\User\\RegistrationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:45:13.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\User\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\User\\UserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\User\\UserResponseDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\User\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:54:32.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageInfo.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\PageInfo.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\PageInfo.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\PageInfo.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\PageInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:44:58.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "KvizHub\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:40:15.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "KvizHub\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:12:20.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "KvizHub\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:03:35.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\CategoryService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:59:54.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\QuestionService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\QuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:15:04.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\PasswordService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:07:53.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuestionToDtoConverter.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\QuestionToDtoConverter.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\TypeConverter\\QuestionToDtoConverter.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\QuestionToDtoConverter.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\TypeConverter\\QuestionToDtoConverter.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:25:33.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuestionSolutionToDtoConverter.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\QuestionSolutionToDtoConverter.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\TypeConverter\\QuestionSolutionToDtoConverter.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\QuestionSolutionToDtoConverter.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\TypeConverter\\QuestionSolutionToDtoConverter.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:26:43.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DtoToUpdateQuestionConverter.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\DtoToUpdateQuestionConverter.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\TypeConverter\\DtoToUpdateQuestionConverter.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\DtoToUpdateQuestionConverter.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\TypeConverter\\DtoToUpdateQuestionConverter.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:42:11.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DtoToQuizSolutionConverter.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\DtoToQuizSolutionConverter.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\TypeConverter\\DtoToQuizSolutionConverter.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\DtoToQuizSolutionConverter.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\TypeConverter\\DtoToQuizSolutionConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:40:46.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Quizz.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz\\Quizz.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz\\Quizz.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz\\Quizz.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz\\Quizz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:30:45.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuizCategory.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz\\QuizCategory.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz\\QuizCategory.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz\\QuizCategory.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz\\QuizCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:08:56.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuizAttempt.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz\\QuizAttempt.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz\\QuizAttempt.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz\\QuizAttempt.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz\\QuizAttempt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:22:45.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResponseBase.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\ResponseBase.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Base\\ResponseBase.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\ResponseBase.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Base\\ResponseBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:02:37.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ParticipantResponseBase.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\ParticipantResponseBase.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Base\\ParticipantResponseBase.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\ParticipantResponseBase.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Base\\ParticipantResponseBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:29:32.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuizSolutionDetailBase.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\QuizSolutionDetailBase.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Base\\QuizSolutionDetailBase.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\QuizSolutionDetailBase.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Base\\QuizSolutionDetailBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:17:05.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QuizQuestionDetailBase.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\QuizQuestionDetailBase.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Base\\QuizQuestionDetailBase.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Base\\QuizQuestionDetailBase.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Base\\QuizQuestionDetailBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:04:02.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TextEntryAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\TextEntryAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Answers\\TextEntryAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\TextEntryAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Answers\\TextEntryAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:19:22.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SingleOptionAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\SingleOptionAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Answers\\SingleOptionAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\SingleOptionAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Answers\\SingleOptionAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:13:38.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MultipleOptionAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\MultipleOptionAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Answers\\MultipleOptionAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\MultipleOptionAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Answers\\MultipleOptionAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:17:07.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BooleanAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\BooleanAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Answers\\BooleanAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Answers\\BooleanAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Answers\\BooleanAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:04:39.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DtoToQuestionConverter.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\DtoToQuestionConverter.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\TypeConverter\\DtoToQuestionConverter.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\TypeConverter\\DtoToQuestionConverter.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\TypeConverter\\DtoToQuestionConverter.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:26:09.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ServerErrorException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\ServerErrorException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\ServerErrorException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\ServerErrorException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\ServerErrorException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:13:33.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SaveFailedException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\SaveFailedException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\SaveFailedException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\SaveFailedException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\SaveFailedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:10:52.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RequiredValuesMissingException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\RequiredValuesMissingException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\RequiredValuesMissingException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\RequiredValuesMissingException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\RequiredValuesMissingException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:14:07.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InvalidRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\InvalidRequestException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\InvalidRequestException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\InvalidRequestException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\InvalidRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:09:35.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:17:12.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EntityUnavailableException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityUnavailableException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\EntityUnavailableException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityUnavailableException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\EntityUnavailableException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:16:59.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EntityReferenceConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityReferenceConflictException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\EntityReferenceConflictException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityReferenceConflictException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\EntityReferenceConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:13:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\EntityNotFoundException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityNotFoundException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\EntityNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:17:36.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EntityConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityConflictException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\EntityConflictException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\EntityConflictException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\EntityConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:03:58.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeletionFailedException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\DeletionFailedException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\DeletionFailedException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\DeletionFailedException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\DeletionFailedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:10:14.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AccessDeniedException.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\AccessDeniedException.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Exception\\AccessDeniedException.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Exception\\AccessDeniedException.cs",
+              "RelativeToolTip": "KvizHub\\Exception\\AccessDeniedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:18:10.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:54:39.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IStorageService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\IStorageService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IStorageService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:29:32.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ISolutionService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\ISolutionService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\ISolutionService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\ISolutionService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\ISolutionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:49:50.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IQuizService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IQuizService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\IQuizService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IQuizService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\IQuizService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:47:00.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IQuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IQuestionService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\IQuestionService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IQuestionService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\IQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:42:25.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IPasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IPasswordService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\IPasswordService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IPasswordService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\IPasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:35:43.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:18:13.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IAuthToken.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IAuthToken.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Interfaces\\IAuthToken.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Interfaces\\IAuthToken.cs",
+              "RelativeToolTip": "KvizHub\\Interfaces\\IAuthToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:53:35.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "QuestionProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuestionProfile.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\Profiles\\QuestionProfile.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuestionProfile.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\Profiles\\QuestionProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:15:40.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "QuestionConversionModel.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\ConversionModel\\QuestionConversionModel.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\ConversionModel\\QuestionConversionModel.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\ConversionModel\\QuestionConversionModel.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\ConversionModel\\QuestionConversionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:54:25.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\UserProfile.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\Profiles\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\UserProfile.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\Profiles\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:16:38.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SolutionProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\SolutionProfile.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\Profiles\\SolutionProfile.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\SolutionProfile.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\Profiles\\SolutionProfile.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:16:12.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "QuizMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuizMappingProfile.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\Profiles\\QuizMappingProfile.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuizMappingProfile.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\Profiles\\QuizMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:40:41.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "QuizAnswerMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuizAnswerMappingProfile.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\Profiles\\QuizAnswerMappingProfile.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuizAnswerMappingProfile.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\Profiles\\QuizAnswerMappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:29:17.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "QuestionTypeMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuestionTypeMappingProfile.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\Profiles\\QuestionTypeMappingProfile.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\Profiles\\QuestionTypeMappingProfile.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\Profiles\\QuestionTypeMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:24:14.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "QuizSolutionConversionModel.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\ConversionModel\\QuizSolutionConversionModel.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\ConversionModel\\QuizSolutionConversionModel.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\ConversionModel\\QuizSolutionConversionModel.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\ConversionModel\\QuizSolutionConversionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:59:26.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "QuestionSolutionConversionModel.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\ConversionModel\\QuestionSolutionConversionModel.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Mapping\\ConversionModel\\QuestionSolutionConversionModel.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Mapping\\ConversionModel\\QuestionSolutionConversionModel.cs",
+              "RelativeToolTip": "KvizHub\\Mapping\\ConversionModel\\QuestionSolutionConversionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:56:42.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BooleanDetailsConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\BooleanDetailsConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\DetailsConfiguration\\BooleanDetailsConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\BooleanDetailsConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\DetailsConfiguration\\BooleanDetailsConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:25:20.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TextEntryAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\TextEntryAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\AnswerConfiguration\\TextEntryAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\TextEntryAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\AnswerConfiguration\\TextEntryAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:22:52.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "SingleOptionAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\SingleOptionAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\AnswerConfiguration\\SingleOptionAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\SingleOptionAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\AnswerConfiguration\\SingleOptionAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:22:28.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "MultipleOptionAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\MultipleOptionAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\AnswerConfiguration\\MultipleOptionAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\MultipleOptionAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\AnswerConfiguration\\MultipleOptionAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:21:46.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BooleanAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\BooleanAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\AnswerConfiguration\\BooleanAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\AnswerConfiguration\\BooleanAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\AnswerConfiguration\\BooleanAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:21:28.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "QuestionType.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Enums\\QuestionType.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Enums\\QuestionType.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Enums\\QuestionType.cs",
+              "RelativeToolTip": "KvizHub\\Enums\\QuestionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:33:57.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Enums\\Difficulty.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Enums\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Enums\\Difficulty.cs",
+              "RelativeToolTip": "KvizHub\\Enums\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:33:21.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\UserAnswerDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\UserAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\UserAnswerDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\UserAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:02:10.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UpdateCategoryRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\UpdateCategoryRequestDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\UpdateCategoryRequestDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\UpdateCategoryRequestDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\UpdateCategoryRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:21:54.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "SolQuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\SolQuizDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\SolQuizDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\SolQuizDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\SolQuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:18:18.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "SolQuestionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\SolQuestionDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\SolQuestionDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\SolQuestionDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\SolQuestionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:07:38.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "QuizQuestionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizQuestionDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizQuestionDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizQuestionDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizQuestionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:15:59.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "QuizLeaderboardEntryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizLeaderboardEntryDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizLeaderboardEntryDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizLeaderboardEntryDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizLeaderboardEntryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:12:34.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "QuizLeaderboardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizLeaderboardDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizLeaderboardDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizLeaderboardDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizLeaderboardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:11:58.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "QuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:05:26.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "QuizAttemptsSummaryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptsSummaryDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizAttemptsSummaryDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptsSummaryDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizAttemptsSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:08:38.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "QuizAttemptResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptResultDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizAttemptResultDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptResultDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizAttemptResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:06:54.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "QuizAttemptInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptInfoDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizAttemptInfoDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptInfoDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizAttemptInfoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:03:42.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "QuizAttemptDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuizAttemptDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuizAttemptDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuizAttemptDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:05:40.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "QuestionSolutionResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuestionSolutionResponseDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuestionSolutionResponseDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuestionSolutionResponseDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuestionSolutionResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:57:59.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "QuestionAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuestionAnswerDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\QuestionAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\QuestionAnswerDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\QuestionAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:26:29.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "NewQuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\NewQuizDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\NewQuizDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\NewQuizDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\NewQuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:08:43.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "NewQuestionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\NewQuestionDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\NewQuestionDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\NewQuestionDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\NewQuestionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:10:30.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "NewAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\NewAnswerDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\NewAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\NewAnswerDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\NewAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:58:08.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CreateCategoryRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\CreateCategoryRequestDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\CreateCategoryRequestDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\CreateCategoryRequestDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\CreateCategoryRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:20:20.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BasicAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\BasicAnswerDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\BasicAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\BasicAnswerDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\BasicAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:03:31.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "EditQuestionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\EditQuestionDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\EditQuestionDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\EditQuestionDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\EditQuestionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:14:14.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "EditAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\EditAnswerDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\EditAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\EditAnswerDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\EditAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:00:16.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "CategoryResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\CategoryResponseDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\CategoryResponseDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\CategoryResponseDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\CategoryResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:22:42.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "MultipleOptionSolution.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\MultipleOptionSolution.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Solution\\MultipleOptionSolution.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\MultipleOptionSolution.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Solution\\MultipleOptionSolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:24:21.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "SingleOptionSolution.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\SingleOptionSolution.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Solution\\SingleOptionSolution.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\SingleOptionSolution.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Solution\\SingleOptionSolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:24:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "AuthTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\AuthTokenService.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Services\\AuthTokenService.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Services\\AuthTokenService.cs",
+              "RelativeToolTip": "KvizHub\\Services\\AuthTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:01:44.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "EditQuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\EditQuizDTO.cs",
+              "RelativeDocumentMoniker": "KvizHub\\DTO\\Quiz\\EditQuizDTO.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\DTO\\Quiz\\EditQuizDTO.cs",
+              "RelativeToolTip": "KvizHub\\DTO\\Quiz\\EditQuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T19:21:15.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "StringListRule.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\StringListRule.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\StringListRule.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\StringListRule.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\StringListRule.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:03:01.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "QuestionCreationRule.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\QuestionCreationRule.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\QuestionCreationRule.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\QuestionCreationRule.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\QuestionCreationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:57:52.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "MinimumDuration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\MinimumDuration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\MinimumDuration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\MinimumDuration.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\MinimumDuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:56:50.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "FileSizeLimit.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\FileSizeLimit.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\FileSizeLimit.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\FileSizeLimit.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\FileSizeLimit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:53:40.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "EnumMemberCheck.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\EnumMemberCheck.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\EnumMemberCheck.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\EnumMemberCheck.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\EnumMemberCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:52:27.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "RequireProperty.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\RequireProperty.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\RequireProperty.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\RequireProperty.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\RequireProperty.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:51:33.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "FileExtensionCheck.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\FileExtensionCheck.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Validators\\FileExtensionCheck.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Validators\\FileExtensionCheck.cs",
+              "RelativeToolTip": "KvizHub\\Validators\\FileExtensionCheck.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:50:04.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "QuizContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizContextFactory.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizContextFactory.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizContextFactory.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:41:11.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "QuizContext.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizContext.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizContext.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizContext.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:26:43.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "QuizAttemptConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizAttemptConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizAttemptConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizAttemptConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizAttemptConfiguration.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:21:28.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "QuizQuestionSolutionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionSolutionConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionSolutionConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionSolutionConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionSolutionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:17:20.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "QuizConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizConfigurations.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizConfigurations.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizConfigurations.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizConfigurations.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:11:34.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "QuizQuestionInfoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionInfoConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionInfoConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizQuestionInfoConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:05:27.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "QuizCategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizCategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizCategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\QuizConfiguration\\QuizCategoryConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\QuizConfiguration\\QuizCategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:01:38.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\Users\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\Users\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\Users\\UserConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\Users\\UserConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:08:30.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "TextEntrySolutionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\TextEntrySolutionConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\SolutionConfiguration\\TextEntrySolutionConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\TextEntrySolutionConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\SolutionConfiguration\\TextEntrySolutionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:02:38.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "SingleOptionSolutionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\SingleOptionSolutionConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\SolutionConfiguration\\SingleOptionSolutionConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\SingleOptionSolutionConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\SolutionConfiguration\\SingleOptionSolutionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:58:22.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "MultipleOptionSolutionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\MultipleOptionSolutionConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\SolutionConfiguration\\MultipleOptionSolutionConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\MultipleOptionSolutionConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\SolutionConfiguration\\MultipleOptionSolutionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:53:52.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "SingleOptionDetailsConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\SingleOptionDetailsConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\DetailsConfiguration\\SingleOptionDetailsConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\SingleOptionDetailsConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\DetailsConfiguration\\SingleOptionDetailsConfiguration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:25:55.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\Users.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\User\\Users.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\Users.cs",
+              "RelativeToolTip": "KvizHub\\Models\\User\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:35:51.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "SingleOptionUserAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\SingleOptionUserAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\SingleOptionUserAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\SingleOptionUserAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\SingleOptionUserAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:21:50.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "MultipleOptionDetailsConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\MultipleOptionDetailsConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\DetailsConfiguration\\MultipleOptionDetailsConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\MultipleOptionDetailsConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\DetailsConfiguration\\MultipleOptionDetailsConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:25:41.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "BooleanSolutionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\BooleanSolutionConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\SolutionConfiguration\\BooleanSolutionConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\SolutionConfiguration\\BooleanSolutionConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\SolutionConfiguration\\BooleanSolutionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:47:44.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "MultipleOptionUserAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\MultipleOptionUserAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\MultipleOptionUserAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\MultipleOptionUserAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\MultipleOptionUserAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:21:26.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "BooleanUserAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\BooleanUserAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\BooleanUserAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\BooleanUserAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\BooleanUserAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:21:02.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "MultipleOptionUserAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\MultipleOptionUserAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\User\\MultipleOptionUserAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\MultipleOptionUserAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\User\\MultipleOptionUserAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:22:52.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "BooleanUserAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\BooleanUserAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\User\\BooleanUserAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\BooleanUserAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\User\\BooleanUserAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:22:25.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "TextEntryUserAnswerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\TextEntryUserAnswerConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\TextEntryUserAnswerConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\UserAnswerConfiguration\\TextEntryUserAnswerConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\UserAnswerConfiguration\\TextEntryUserAnswerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:22:12.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "BooleanDetails.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\BooleanDetails.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz-Details\\BooleanDetails.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\BooleanDetails.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz-Details\\BooleanDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:05:26.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "TextEntryDetailsConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\TextEntryDetailsConfiguration.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\DetailsConfiguration\\TextEntryDetailsConfiguration.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\DetailsConfiguration\\TextEntryDetailsConfiguration.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\DetailsConfiguration\\TextEntryDetailsConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:26:21.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "SingleOptionDetails.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\SingleOptionDetails.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz-Details\\SingleOptionDetails.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\SingleOptionDetails.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz-Details\\SingleOptionDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:14:49.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "MultipleOptionDetails.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\MultipleOptionDetails.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz-Details\\MultipleOptionDetails.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\MultipleOptionDetails.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz-Details\\MultipleOptionDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:18:01.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "TextEntryDetails.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\TextEntryDetails.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz-Details\\TextEntryDetails.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Details\\TextEntryDetails.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz-Details\\TextEntryDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:20:00.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "KvizHub.csproj",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\KvizHub.csproj",
+              "RelativeDocumentMoniker": "KvizHub\\KvizHub.csproj",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\KvizHub.csproj",
+              "RelativeToolTip": "KvizHub\\KvizHub.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-12T13:03:19.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "TimeSpanJsonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\TimeSpanJsonConverter.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Infrastructure\\TimeSpanJsonConverter.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Infrastructure\\TimeSpanJsonConverter.cs",
+              "RelativeToolTip": "KvizHub\\Infrastructure\\TimeSpanJsonConverter.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:14:25.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "TextEntryUserAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\TextEntryUserAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\User\\TextEntryUserAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\TextEntryUserAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\User\\TextEntryUserAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:23:27.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "SingleOptionUserAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\SingleOptionUserAnswer.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\User\\SingleOptionUserAnswer.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\User\\SingleOptionUserAnswer.cs",
+              "RelativeToolTip": "KvizHub\\Models\\User\\SingleOptionUserAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:23:11.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "BooleanSolution.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\BooleanSolution.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Solution\\BooleanSolution.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\BooleanSolution.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Solution\\BooleanSolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:24:05.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "TextEntrySolution.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\TextEntrySolution.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Solution\\TextEntrySolution.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\TextEntrySolution.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Solution\\TextEntrySolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:24:55.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "QuizQuestionSolutionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\QuizQuestionSolutionInfo.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Solution\\QuizQuestionSolutionInfo.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Solution\\QuizQuestionSolutionInfo.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Solution\\QuizQuestionSolutionInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:21:21.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "QuizQuestionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Information\\QuizQuestionInfo.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Models\\Quiz-Information\\QuizQuestionInfo.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Models\\Quiz-Information\\QuizQuestionInfo.cs",
+              "RelativeToolTip": "KvizHub\\Models\\Quiz-Information\\QuizQuestionInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:07:04.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Program.cs",
+              "RelativeDocumentMoniker": "KvizHub\\Program.cs",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\Program.cs",
+              "RelativeToolTip": "KvizHub\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:21:06.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "KvizHub.http",
+              "DocumentMoniker": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\KvizHub.http",
+              "RelativeDocumentMoniker": "KvizHub\\KvizHub.http",
+              "ToolTip": "C:\\Users\\nikol\\Documents\\GitHub\\Web2\\KvizHub\\KvizHub\\KvizHub.http",
+              "RelativeToolTip": "KvizHub\\KvizHub.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-08T18:27:48.648Z"
             }
           ]
         }

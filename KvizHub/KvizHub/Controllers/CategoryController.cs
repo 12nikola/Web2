@@ -26,9 +26,9 @@ namespace KvizHub.Controllers
 
         [HttpGet]
         [Authorize]
-        public IActionResult FetchAllCategories()
+        public IActionResult FetchAllCategories(int id)
         {
-            var dtos = _service.();
+            var dtos = _service.GetAllByQuizId(id);
             return Ok(dtos);
         }
 
@@ -56,7 +56,7 @@ namespace KvizHub.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            var created = _service.GetAnswers(dto);
+            var created = _service.GetAllWithAnswersForQuiz(dto);
             return Ok(created);
         }
     }

@@ -1,8 +1,12 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
+using KvizHub.Enums;
 using KvizHub.Mapping.ConversionModel;
+using KvizHub.Models.Quiz_Details;
+using KvizHub.Models.Quiz_Response;
+using KvizHub.Models.Solution;
 
-namespace QuizWebServer.Mapping.TypeConverters
+namespace KvizHub.Mapping.TypeConverters
 {
     public class QuestionSolutionToDtoConverter : ITypeConverter<QuestionSolutionConversionModel, SolQuestionDTO>
     {
@@ -10,61 +14,57 @@ namespace QuizWebServer.Mapping.TypeConverters
         {
             var dto = new SolQuestionDTO
             {
-                QuestionId = source.Info..QuestionInformationID,
-                SingleLabel = source.QuestionSolutionInformation.QuestionInformation.QuestionDetailsType,
-                MultipleLabels = source.QuestionSolutionInformation.QuestionInformation.QuestionCategory.Name,
-                BooleanLabel = source.QuestionSolutionInformation.QuestionInformation.Text
+                QuestionId = source.QuestionDetails.QuizQuestion.QuizQuestionId,
+                SingleLabel = source.QuestionDetails.QuizQuestion.QuestionText,
+                MultipleLabels = source.QuestionDetails.QuizQuestion.,
+                BooleanLabel = source.QuestionDetails.QuizQuestion.
             };
 
-            if (dto.QuestionType == QuizQuestionType.SingleChoice)
+            if (dto. == QuestionType.SingleOption)
             {
-                dto.MultipleLabels = context.Mapper.Map<List<SimplifiedAnswerDTO>>(
-                    ((SingleChoiceQuestionDetails)source.QuestionDetailsBase).Answers);
+                dto.MultipleLabels = context.Mapper.Map<List<BasicAnswerDTO>>(
+                    ((SingleOptionDetails)source.QuestionDetails).);
 
                 dto.SingleLabel = null;
 
-                if (source.QuestionSolutionDetailsBase != null)
+                if (source.QuestionDetails != null)
                 {
                     dto.SingleLabel =
-                        ((SingleChoiceQuestionSolutionDetails)source.QuestionSolutionDetailsBase)
-                        .SingleChoiceQuestionUserAnswer.UserAnswerText;
+                        ((SingleOptionSolution)source.SolutionDetails).Answer.ResponseText;
                 }
             }
-            else if (dto.QuestionType == QuizQuestionType.MultipleChoice)
+            else if (dto. == QuestionType.MultipleOption)
             {
-                dto.MultipleLabels = context.Mapper.Map<List<SimplifiedAnswerDTO>>(
-                    ((MultipleChoiceQuestionDetails)source.QuestionDetailsBase).Answers);
+                dto.MultipleLabels = context.Mapper.Map<List<BasicAnswerDTO>>(
+                    ((MultipleOptionDetails)source.SolutionDetails).Answers);
 
-                dto.MultipleLabels ??= new List<SimplifiedAnswerDTO>();
 
-                if (source.QuestionSolutionDetailsBase != null)
+                if (source.SolutionDetails != null)
                 {
-                    foreach (var a in ((MultipleChoiceQuestionSolutionDetails)source.QuestionSolutionDetailsBase).UserAnswers)
+                    foreach (var a in ((MultipleOptionSolution)source.SolutionDetails).Answers)
                     {
-                        dto.MultipleLabels.Add(new SimplifiedAnswerDTO { AnswerText = a.UserAnswerText });
+                        dto.MultipleLabels.Add(new BasicAnswerDTO { Label = a.ResponseText });
                     }
                 }
             }
-            else if (dto.QuestionType == QuizQuestionType.FillIn)
+            else if (dto. == QuestionType.TextEntry)
             {
-                dto.SingleLabel = ((FillInQuestionDetails)source.QuestionDetailsBase).CorrectAnswer.AnswerText;
+                dto.SingleLabel = ((TextEntryDetails)source.QuestionDetails).CorrectAnswer.Content;
 
-                if (source.QuestionSolutionDetailsBase != null)
+                if (source.QuestionDetails != null)
                 {
                     dto.SingleLabel =
-                        ((FillInQuestionSolutionDetails)source.QuestionSolutionDetailsBase)
-                        .FillInQuestionUserAnswer.UserAnswerText;
+                        ((TextEntrySolution)source.SolutionDetails).Answer.ResponseText;
                 }
             }
-            else if (dto.QuestionType == QuizQuestionType.TrueFalse)
+            else if (dto. == QuestionType.Boolean)
             {
-                dto.BooleanLabel = ((TrueFalseQuestionDetails)source.QuestionDetailsBase).CorrectAnswer.IsCorrect;
+                dto.BooleanLabel = ((BooleanDetails)source.QuestionDetails).CorrectAnswer.Correct;
 
-                if (source.QuestionSolutionDetailsBase != null)
+                if (source.QuestionDetails != null)
                 {
                     dto.BooleanLabel =
-                        ((TrueFalseQuestionSolutionDetails)source.QuestionSolutionDetailsBase)
-                        .TrueFalseQuestionUserAnswer.UserAnswerText == "True";
+                        ((BooleanSolution)source.SolutionDetails).Answer.ResponseText == "True";
                 }
             }
 

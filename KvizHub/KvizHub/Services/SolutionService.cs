@@ -1,26 +1,37 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
 using KvizHub.Enums;
+using KvizHub.Exceptions;
 using KvizHub.Infrastructure.QuizConfiguration;
+using KvizHub.Interfaces;
 using KvizHub.Mapping.ConversionModel;
 using KvizHub.Models.Base;
 using KvizHub.Models.Quiz;
 using KvizHub.Models.Quiz_Information;
 using KvizHub.Models.Quiz_Response;
 using Microsoft.EntityFrameworkCore;
-using QuizWebServer.Exceptions;
 
-namespace QuizWebServer.Services
+namespace KvizHub.Services
 {
-    public class QuizSolutionManager : IQuizSolutionManager
+    public class SolutionService : ISolutionService
     {
         private readonly IMapper _mapperService;
         private readonly QuizContext _databaseContext;
 
-        public QuizSolutionManager(IMapper mapperService, QuizContext databaseContext)
+        public SolutionService(IMapper mapperService, QuizContext databaseContext)
         {
             _mapperService = mapperService;
             _databaseContext = databaseContext;
+        }
+
+        public bool IsQuestionSolutionByUser(string username, int questionSolutionId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsQuizSolutionByUser(string username, int quizSolutionId)
+        {
+            throw new NotImplementedException();
         }
 
         public QuizAttemptResultDTO SubmitQuizSolution(string username, int quizId, SolQuizDTO solutionData)

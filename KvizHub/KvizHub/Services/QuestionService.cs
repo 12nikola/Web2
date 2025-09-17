@@ -1,6 +1,5 @@
 ﻿using KvizHub.DTO.Quiz;
 using KvizHub.Interfaces;
-using QuizWebServer.Exceptions;
 using System;
 
 namespace KvizHub.Services

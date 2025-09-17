@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
 using KvizHub.Enums;
+using KvizHub.Exceptions;
 using KvizHub.Infrastructure.QuizConfiguration;
 using KvizHub.Interfaces;
 using KvizHub.Models.Quiz;
 using Microsoft.EntityFrameworkCore;
-using QuizWebServer.Exceptions;
 
 public class QuizService : IQuizService
 {

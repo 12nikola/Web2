@@ -1,18 +1,23 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
+using KvizHub.DTO.User;
+using KvizHub.Exceptions;
+using KvizHub.Infrastructure.QuizConfiguration;
+using KvizHub.Interfaces;
 using KvizHub.Models.Quiz;
+using KvizHub.Models.User;
 
-namespace QuizWebServer.Services
+namespace KvizHub.Services
 {
     public class UserService : IUserService
     {
         private readonly IMapper _mapperService;
-        private readonly QuizHubDbContext _databaseContext;
-        private readonly ITokenService _authTokenService;
-        private readonly IFileStorageService _fileService;
-        private readonly IPasswordHasherService _passwordService;
+        private readonly QuizContext _databaseContext;
+        private readonly IAuthToken _authTokenService;
+        private readonly IStorageService _fileService;
+        private readonly IPasswordService _passwordService;
 
-        public AccountService(IMapper mapperService, QuizHubDbContext databaseContext, ITokenService authTokenService, IPasswordHasherService passwordService, IFileStorageService fileService)
+        public UserService(IMapper mapperService, QuizContext databaseContext, IAuthToken authTokenService, IPasswordService passwordService, IStorageService fileService)
         {
             _mapperService = mapperService;
             _databaseContext = databaseContext;
@@ -21,44 +26,44 @@ namespace QuizWebServer.Services
             _passwordService = passwordService;
         }
 
-        public string Authenticate(LoginRequestDTO loginData)
+        public string Authenticate(LoginDTO loginData)
         {
-            UserAccount account;
+            Users account;
 
-            if (loginData.Identifier.Contains("@"))
+            if (loginData.Email.Contains("@"))
             {
-                account = _databaseContext.Users.FirstOrDefault(u => u.Email == loginData.Identifier);
+                account = _databaseContext.Users.FirstOrDefault(u => u.Email == loginData.Email);
             }
             else
             {
-                account = _databaseContext.Users.FirstOrDefault(u => u.Username == loginData.Identifier);
+                account = _databaseContext.Users.FirstOrDefault(u => u.Username == loginData.Email);
             }
 
             if (account == null)
             {
-                throw new UnauthorizedException("Invalid credentials.");
+                throw new EntityUnavailableException("Invalid credentials.");
             }
 
-            if (_passwordService.VerifyPassword(loginData.Password, account.Password))
+            if (_passwordService.Validate(loginData.Password, account.Password))
             {
-                return _authTokenService.GenerateToken(account.Username);
+                return _authTokenService.CreateToken(account.Username);
             }
             else
             {
-                throw new UnauthorizedException("Invalid credentials.");
+                throw new EntityUnavailableException("Invalid credentials.");
             }
         }
 
-        public string RegisterUser(RegistrationRequestDTO registrationData)
+        public string RegisterUser(RegistrationDTO registrationData)
         {
             if (_databaseContext.Users.Any(u => u.Username == registrationData.Username))
             {
-                throw new AlreadyExistsException("Username", registrationData.Username);
+                throw new EntityConflictException("Username", registrationData.Username);
             }
 
             if (_databaseContext.Users.Any(u => u.Email == registrationData.Email))
             {
-                throw new AlreadyExistsException("Email", registrationData.Email);
+                throw new EntityConflictException("Email", registrationData.Email);
             }
 
             string profileImageName = _fileService.SaveFile(registrationData.Image);
@@ -73,11 +78,11 @@ namespace QuizWebServer.Services
 
             if (changesSaved > 0)
             {
-                return _authTokenService.GenerateToken(newUser.Username);
+                return _authTokenService.CreateToken(newUser.Username);
             }
             else
             {
-                throw new DataNotSavedException("User", newUser.Username);
+                throw new SaveFailedException("User", newUser.Username);
             }
         }
 
@@ -91,7 +96,7 @@ namespace QuizWebServer.Services
             UserAccount account = _databaseContext.Users.FirstOrDefault(u => u.Username == username);
 
             if (account == null)
-                throw new NotFoundException(username);
+                throw new EntityNotFoundException(username);
 
             return account.Image;
         }

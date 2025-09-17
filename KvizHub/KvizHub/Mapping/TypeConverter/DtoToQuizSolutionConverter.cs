@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
 using KvizHub.Enums;
+using KvizHub.Exceptions;
 using KvizHub.Mapping.ConversionModel;
 using KvizHub.Models.Base;
 using KvizHub.Models.Quiz_Details;
 using KvizHub.Models.Quiz_Response;
 using KvizHub.Models.Solution;
 using KvizHub.Models.User;
-using QuizWebServer.Exceptions;
-using QuizWebServer.Models.QuizSolution;
-using System.Runtime.InteropServices;
+using KvizHub.Models.QuizSolution;
+
 
 namespace QuizWebServer.Mapping.Converters
 {
@@ -53,10 +53,10 @@ namespace QuizWebServer.Mapping.Converters
                 AttemptDate = DateTime.Now
             };
 
-            d.QuestionDetails = new List<QuizSolutionDetailBase>();
+            d.QuestionDetails = new List<QuizQuestionDetailBase>();
             attempt.QuestionSolutions = new List<QuizQuestionSolutionInfo>();
 
-            foreach (var qInfo in d.Quiz.Description)
+            foreach (var qInfo in d.Quiz.Category)
             {
                 var qDetails = d.QuestionDetails.FirstOrDefault(x => x.QuizQuestionId == qInfo);
                 var userAnswer = s.solves.FirstOrDefault(x => x.QuestionId == qInfo);
@@ -88,7 +88,7 @@ namespace QuizWebServer.Mapping.Converters
 
                     sol.Answer.SOSolution = sol;
 
-                    var correctAns = details.QuizQuestion.Find(x => x.AnswerText == userAnswer.SingleUserAnswer);
+                    var correctAns = details.QuizQuestion.(x => x.AnswerText == userAnswer.SingleUserAnswer);
                     if (correctAns == null)
                         throw new InvalidRequestException("Answer must be from available options.");
 
@@ -164,7 +164,7 @@ namespace QuizWebServer.Mapping.Converters
                     attempt.QuestionSolutions.Add(qSolutionInfo);
                     d.SolutionDetails.Add(sol);
                 }
-                else if (qInfo.QuestionDetailsType == QuestionType.TextEntry)
+                else if (qInfo== QuestionType.TextEntry)
                 {
                     totalCount++;
 

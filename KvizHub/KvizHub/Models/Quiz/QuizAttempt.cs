@@ -3,7 +3,7 @@ using KvizHub.Models.User;
 using System;
 using System.Collections.Generic;
 
-namespace QuizWebServer.Models.QuizSolution
+namespace KvizHub.Models.QuizSolution
 {
     public class QuizAttempt
     {

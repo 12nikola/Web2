@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QuizWebServer.Exceptions
+namespace KvizHub.Exceptions
 {
     public class EntityReferenceConflictException : Exception
     {

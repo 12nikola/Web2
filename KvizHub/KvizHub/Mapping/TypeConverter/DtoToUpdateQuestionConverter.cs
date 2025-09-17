@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
 using KvizHub.Enums;
+using KvizHub.Exceptions;
 using KvizHub.Mapping.ConversionModel;
 using KvizHub.Models.Quiz_Details;
 using KvizHub.Models.Quiz_Response;
-using QuizWebServer.Exceptions;
 
 namespace QuizWebServer.Mapping.Converters
 {

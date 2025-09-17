@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace QuizWebServer.Interfaces
+namespace KvizHub.Interfaces
 {
     public interface ISolutionService
     {

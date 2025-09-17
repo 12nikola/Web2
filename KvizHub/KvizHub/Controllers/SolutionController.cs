@@ -2,8 +2,8 @@
 using KvizHub.Models.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using QuizWebServer.Exceptions;
-using QuizWebServer.Interfaces;
+using KvizHub.Interfaces;
+using KvizHub.Exception;
 
 namespace KvizHub.Controllers
 {
@@ -23,7 +23,7 @@ namespace KvizHub.Controllers
         public IActionResult SubmitQuiz(int quizId, [FromBody] SolQuizDTO dto)
         {
             var user = User?.Identity?.Name;
-            var result = _solutionService.IsQuizSolutionByUser(user, quizId, dto);
+            var result = _solutionService.IsQuizSolutionByUser(quizId, dto);
             return Ok(result);
         }
 
@@ -62,7 +62,7 @@ namespace KvizHub.Controllers
             if (user != username && !User.IsInRole("admin"))
                 throw new AccessDeniedException("You are not allowed to view this user's solutions.");
 
-            var list = _solutionService.IsQuizSolutionByUser(username);
+            var list = _solutionService.IsQuestionSolutionByUser(username);
             return Ok(list);
         }
 

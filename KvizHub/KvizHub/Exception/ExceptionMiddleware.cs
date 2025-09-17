@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using KvizHub.Exceptions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using QuizWebServer.Exceptions;
 using System;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace QuizWebServer.Middleware
+namespace KvizHub.Middleware
 {
     public class ExceptionHandlingMiddleware
     {

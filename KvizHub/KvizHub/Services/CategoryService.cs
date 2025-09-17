@@ -1,8 +1,8 @@
 ﻿using KvizHub.DTO.Quiz;
 using KvizHub.Enums;
+using KvizHub.Exceptions;
 using KvizHub.Infrastructure.QuizConfiguration;
 using KvizHub.Interfaces;
-using QuizWebServer.Exceptions;
 
 public class CategoryService : ICategoryService
 {
@@ -15,7 +15,7 @@ public class CategoryService : ICategoryService
 
     public List<QuestionType> GetAll()
     {
-        return _context..ToList();
+        return _context.ToList();
     }
 
     public QuestionType? GetById(int id)
@@ -30,7 +30,7 @@ public class CategoryService : ICategoryService
             Name = categoryToCreate.Name
         };
 
-        _context.QuestionTypes.Add(newCategory);
+        _context..Add(newCategory);
         int result = _context.SaveChanges();
 
         if (result <= 0)
@@ -50,7 +50,7 @@ public class CategoryService : ICategoryService
             return null;
         }
 
-        categoryRecord.Name = categoryToUpdate.Name;
+        categoryRecord.Name = categoryToUpdate.Label;
 
         int result = _context.SaveChanges();
         if (result <= 0)
@@ -63,20 +63,20 @@ public class CategoryService : ICategoryService
 
     public void Remove(int categoryIdenitifier)
     {
-        var categoryRecord = _context.QuestionTypes.FirstOrDefault(c => c.QuestionTypeID == categoryIdenitifier);
+        var categoryRecord = _context.QuestionType.FirstOrDefault(c => c.QuestionTypeID == categoryIdenitifier);
 
         if (categoryRecord == null)
         {
             throw new EntityNotFoundException("Category", categoryIdenitifier);
         }
 
-        bool isReferenced = _context.QuestionInformations.Any(q => q.QuestionTypeID == categoryIdenitifier);
+        bool isReferenced = _context.QuizQuestionInfo.Any(q => q.QuizQuestionId == categoryIdenitifier);
         if (isReferenced)
         {
             throw new EntityReferenceConflictException("Category", categoryIdenitifier.ToString());
         }
 
-        _context.QuestionTypes.Remove(categoryRecord);
+        _context.Remove(categoryRecord);
         int result = _context.SaveChanges();
 
         if (result <= 0)
