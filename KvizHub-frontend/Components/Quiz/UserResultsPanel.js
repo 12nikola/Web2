@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Form, Spinner } from "react-bootstrap";
 import axiosInstance from "../../../../axios";
-import UserQuizSolutions from "../../UserQuizSolutions/UserQuizSolution";
+import UserQuizSolutions from "../../Components/UserQuizSolution";
 
 function UserResultsPanel() {
   const [userList, setUserList] = useState([]);

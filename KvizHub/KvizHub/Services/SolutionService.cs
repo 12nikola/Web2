@@ -9,6 +9,8 @@ using KvizHub.Models.Base;
 using KvizHub.Models.Quiz;
 using KvizHub.Models.Quiz_Information;
 using KvizHub.Models.Quiz_Response;
+using KvizHub.Models.Solution;
+using KvizHub.Models.User;
 using Microsoft.EntityFrameworkCore;
 
 namespace KvizHub.Services
@@ -24,16 +26,6 @@ namespace KvizHub.Services
             _databaseContext = databaseContext;
         }
 
-        public bool IsQuestionSolutionByUser(string username, int questionSolutionId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsQuizSolutionByUser(string username, int quizSolutionId)
-        {
-            throw new NotImplementedException();
-        }
-
         public QuizAttemptResultDTO SubmitQuizSolution(string username, int quizId, SolQuizDTO solutionData)
         {
             Quizz quizEntity = _databaseContext.Quizzes.Include(q => q.Description)
@@ -44,7 +36,7 @@ namespace KvizHub.Services
             if (!quizEntity)
                 throw new EntityUnavailableException("Quiz", quizId.ToString());
 
-            UserAccount userEntity = _databaseContext.Users.FirstOrDefault(u => u.Username == username);
+            Users userEntity = _databaseContext.Users.FirstOrDefault(u => u.Username == username);
             if (userEntity == null)
                 throw new EntityNotFoundException("User", username);
 
@@ -121,13 +113,13 @@ namespace KvizHub.Services
         {
             foreach (var detail in questionDetails)
             {
-                if (detail.QuizSolutionInfo.SolutionType == QuestionType.SingleOption)
-                    _databaseContext.SingleOptionSolution.Add((SingleOptionDetails)detail);
-                else if (detail.QuizSolutionInfo.SolutionType == QuestionType.MultipleOption)
-                    _databaseContext.MultipleOptionSolution.Add((QuizQuestionInfo)detail);
-                else if (detail.QuizSolutionInfo.SolutionType == QuestionType.Boolean)
+                if (detail.QuizSolutionInfo.Value == QuestionType.SingleOption)
+                    _databaseContext.SingleOptionDetails.Add();
+                else if (detail.QuizSolutionInfo.Value == QuestionType.MultipleOption)
+                    _databaseContext.MultipleOptionDetails.Add((MultipleOptionSolution)details);
+                else if (detail.QuizSolutionInfo.Value == QuestionType.Boolean)
                     _databaseContext.BooleanSolution.Add((TrueFalseQuestionSolutionDetails)detail);
-                else if (detail.QuizSolutionInfo.SolutionType == QuestionType.TextEntry)
+                else if (detail.QuizSolutionInfo.Value == QuestionType.TextEntry)
                     _databaseContext.TextEntrySolution.Add((FillInQuestionSolutionDetails)detail);
             }
 

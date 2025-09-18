@@ -1,5 +1,5 @@
 ﻿using KvizHub.Models.Base;
-using QuizWebServer.Models.QuizSolution;
+using KvizHub.Models.QuizSolution;
 
 namespace KvizHub.Mapping.ConversionModel
 {

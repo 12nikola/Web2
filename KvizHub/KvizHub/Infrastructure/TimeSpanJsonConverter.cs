@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace QuizWebServer.SerializationConverter
+namespace KvizHub.SerializationConverter
 {
     public class TimeSpanJsonConverter : JsonConverter<TimeSpan>
     {

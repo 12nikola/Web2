@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using KvizHub.DTO.Quiz;
 using KvizHub.Mapping.ConversionModel;
-using QuizWebServer.Mapping.Converters;
-using QuizWebServer.Mapping.TypeConverters;
-using QuizWebServer.Models.QuizSolution;
+using KvizHub.Mapping.Converters;
+using KvizHub.Mapping.TypeConverters;
+using KvizHub.Models.QuizSolution;
 
 namespace QuizWebServer.Mapping.Profiles
 {

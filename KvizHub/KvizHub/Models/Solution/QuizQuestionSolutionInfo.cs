@@ -1,7 +1,7 @@
 ﻿using KvizHub.Enums;
 using KvizHub.Models.Quiz_Information;
 
-namespace QuizWebServer.Models.QuizSolution
+namespace KvizHub.Models.QuizSolution
 {
     public class QuizQuestionSolutionInfo
     {

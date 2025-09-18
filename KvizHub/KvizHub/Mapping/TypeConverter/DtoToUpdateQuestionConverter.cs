@@ -6,7 +6,7 @@ using KvizHub.Mapping.ConversionModel;
 using KvizHub.Models.Quiz_Details;
 using KvizHub.Models.Quiz_Response;
 
-namespace QuizWebServer.Mapping.Converters
+namespace KvizHub.Mapping.Converters
 {
     public class DtoToUpdateQuestionConverter : ITypeConverter<EditQuestionDTO, QuestionConversionModel>
     {

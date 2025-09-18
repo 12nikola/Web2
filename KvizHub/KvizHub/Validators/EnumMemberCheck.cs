@@ -12,7 +12,7 @@ namespace KvizHub.CustomValidation
             _targetEnum = targetEnum;
         }
 
-        protected override ValidationResult? IsValid(object value, ValidationContext ctx)
+        protected override ValidationResult? IsValid(object? value, ValidationContext ctx)
         {
             if (!Enum.IsDefined(_targetEnum, value))
             {

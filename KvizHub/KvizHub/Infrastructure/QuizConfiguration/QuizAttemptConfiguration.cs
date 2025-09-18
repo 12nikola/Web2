@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using KvizHub.Models.QuizSolution;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using QuizWebServer.Models.QuizSolution;
 
 namespace KvizHub.Infrastructure.QuizConfiguration
 {

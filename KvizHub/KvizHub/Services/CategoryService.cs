@@ -15,7 +15,7 @@ public class CategoryService : ICategoryService
 
     public List<QuestionType> GetAll()
     {
-        return _context.ToList();
+        return ;
     }
 
     public QuestionType? GetById(int id)
@@ -63,7 +63,7 @@ public class CategoryService : ICategoryService
 
     public void Remove(int categoryIdenitifier)
     {
-        var categoryRecord = _context.QuestionType.FirstOrDefault(c => c.QuestionTypeID == categoryIdenitifier);
+        var categoryRecord = _context.FirstOrDefault(c => c.QuestionTypeID == categoryIdenitifier);
 
         if (categoryRecord == null)
         {

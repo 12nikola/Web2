@@ -4,10 +4,10 @@ using KvizHub.Models.Quiz;
 using KvizHub.Models.Quiz_Details;
 using KvizHub.Models.Quiz_Information;
 using KvizHub.Models.Quiz_Response;
+using KvizHub.Models.QuizSolution;
 using KvizHub.Models.Solution;
 using KvizHub.Models.User;
 using Microsoft.EntityFrameworkCore;
-using QuizWebServer.Models.QuizSolution;
 
 namespace KvizHub.Infrastructure.QuizConfiguration
 {

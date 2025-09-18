@@ -3,7 +3,7 @@ using KvizHub.Models.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using KvizHub.Interfaces;
-using KvizHub.Exception;
+using KvizHub.Exceptions;
 
 namespace KvizHub.Controllers
 {
@@ -23,7 +23,7 @@ namespace KvizHub.Controllers
         public IActionResult SubmitQuiz(int quizId, [FromBody] SolQuizDTO dto)
         {
             var user = User?.Identity?.Name;
-            var result = _solutionService.IsQuizSolutionByUser(quizId, dto);
+            var result = _solutionService.IsQuizSolutionByUser(dto, quizId);
             return Ok(result);
         }
 
@@ -82,7 +82,7 @@ namespace KvizHub.Controllers
         public IActionResult FetchGlobalRanking()
         {
             var user = User?.Identity?.Name;
-            var dto = _solutionService.GetGlobalTopList(user);
+            var dto = _solutionService(user);
             return Ok(dto);
         }
     }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using KvizHub.Models;
 using KvizHub.Models.Quiz_Response;
 
-namespace QuizWebServer.Infrastructure.Configurations
+namespace KvizHub.Infrastructure.Configurations
 {
     public class SingleChoiceQuestionDetailsConfiguration : IEntityTypeConfiguration<SingleOptionDetails>
     {

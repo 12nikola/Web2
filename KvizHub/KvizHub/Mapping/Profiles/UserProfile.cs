@@ -2,7 +2,7 @@
 using KvizHub.DTO.User;
 using KvizHub.Models.User;
 
-namespace QuizWebServer.Mapping.Profiles
+namespace KvizHub.Mapping.Profiles
 {
     public class UserProfile : Profile
     {

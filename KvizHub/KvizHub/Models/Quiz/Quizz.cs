@@ -8,7 +8,7 @@ namespace KvizHub.Models.Quiz
         public string? Category { get; set; }
         public int NumberOfQuestions { get; set; }
         public int TimeLimit { get; set; } 
-        public string? Difficulty { get; set; }
+        public string? Difficultys { get; set; }
         public string? CreatorUsername { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }

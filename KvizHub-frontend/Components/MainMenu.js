@@ -1,4 +1,4 @@
-import SimpleNavBar from "../SimpleNavigationBar/SimpleNavigationBar";
+import SimpleNavBar from "../Components";
 
 function MainMenu({ account, onLogout }) {
   let items = [];

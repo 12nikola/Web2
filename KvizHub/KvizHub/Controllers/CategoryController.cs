@@ -52,7 +52,7 @@ namespace KvizHub.Controllers
 
         [HttpPost]
         [Authorize(Roles = "admin")]
-        public IActionResult AddCategory([FromBody] NewQuestionDTO dto)
+        public IActionResult AddCategory([FromBody] NewAnswerDTO dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 

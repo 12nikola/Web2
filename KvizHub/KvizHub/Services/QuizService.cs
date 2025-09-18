@@ -47,7 +47,6 @@ public class QuizService : IQuizService
     {
         var quiz = _context.Quizzes
             .Include(q => q.Title)
-            .ThenInclude(q => q.)
             .FirstOrDefault(q => q.Id == quizId);
 
         return quiz == null ? null : _mapper.Map<QuizDTO>(quiz);
@@ -70,8 +69,7 @@ public class QuizService : IQuizService
 
     public (List<QuizDTO> Quizzes, int TotalCount) FilterByCategory(int categoryId, int offset, int limit)
     {
-        var query = _context.Quizzes
-            .Where(q => q.Description.Any(c => c. == categoryId));
+        var query = _context.Quizzes;
 
         int totalCount = query.Count();
 
@@ -85,8 +83,7 @@ public class QuizService : IQuizService
 
     public (List<QuizDTO> Quizzes, int TotalCount) FilterByDifficulty(Difficulty difficulty, int offset, int limit)
     {
-        var query = _context.Quizzes
-            .Where(q => q.Difficulty == difficulty);
+        var query = _context.Quizzes;
 
         int totalCount = query.Count();
 

@@ -11,7 +11,7 @@ using KvizHub.Models.User;
 using KvizHub.Models.QuizSolution;
 
 
-namespace QuizWebServer.Mapping.Converters
+namespace KvizHub.Mapping.Converters
 {
     public class DtoToQuizSolutionConverter : ITypeConverter<SolQuizDTO, QuizSolutionConversionModel>
     {
@@ -100,7 +100,7 @@ namespace QuizWebServer.Mapping.Converters
                     attempt.QuestionSolutions.Add(qSolutionInfo);
                     d.SolutionDetails.Add(sol);
                 }
-                else if (qInfo. == QuizQuestionType.MultipleChoice)
+                else if (qInfo. == QuestionType.MultipleOption)
                 {
                     var details = (MultipleOptionDetails)qDetails;
                     totalCount += details.Answers.Count(a => a.Correct);
@@ -111,9 +111,9 @@ namespace QuizWebServer.Mapping.Converters
                         continue;
                     }
 
-                    var sol = new MultipleOptionDetails
+                    var sol = new MultipleOptionSolution
                     {
-                        QuizQuestionDetailsId = qSolutionInfo,
+                        QuizSolutionInfo = qSolutionInfo,
                         Answers = new MultipleOptionUserAnswer()
                     };
 

@@ -6,99 +6,80 @@ using KvizHub.Infrastructure.QuizConfiguration;
 using KvizHub.Interfaces;
 using KvizHub.Models.Quiz;
 using KvizHub.Models.User;
+using Microsoft.AspNetCore.Identity.Data;
 
 namespace KvizHub.Services
 {
     public class UserService : IUserService
     {
-        private readonly IMapper _mapperService;
-        private readonly QuizContext _databaseContext;
-        private readonly IAuthToken _authTokenService;
-        private readonly IStorageService _fileService;
-        private readonly IPasswordService _passwordService;
+        private readonly IMapper _mapper;
+        private readonly QuizContext _db;
+        private readonly IAuthToken _authToken;
+        private readonly IStorageService _storage;
+        private readonly IPasswordService _passwords;
 
-        public UserService(IMapper mapperService, QuizContext databaseContext, IAuthToken authTokenService, IPasswordService passwordService, IStorageService fileService)
+        public UserService(
+            IMapper mapper,
+            QuizContext db,
+            IAuthToken authToken,
+            IPasswordService passwords,
+            IStorageService storage)
         {
-            _mapperService = mapperService;
-            _databaseContext = databaseContext;
-            _authTokenService = authTokenService;
-            _fileService = fileService;
-            _passwordService = passwordService;
+            _mapper = mapper;
+            _db = db;
+            _authToken = authToken;
+            _passwords = passwords;
+            _storage = storage;
         }
 
-        public string Authenticate(LoginDTO loginData)
+        public string SignIn(LoginRequest loginRequest)
         {
-            Users account;
+            var user = loginRequest.Email.Contains("@")
+                ? _db.Users.FirstOrDefault(u => u.Email == loginRequest.Email)
+                : _db.Users.FirstOrDefault(u => u.Username == loginRequest.Email);
 
-            if (loginData.Email.Contains("@"))
-            {
-                account = _databaseContext.Users.FirstOrDefault(u => u.Email == loginData.Email);
-            }
-            else
-            {
-                account = _databaseContext.Users.FirstOrDefault(u => u.Username == loginData.Email);
-            }
-
-            if (account == null)
+            if (user == null || !_passwords.Validate(loginRequest.Password, user.Password))
             {
                 throw new EntityUnavailableException("Invalid credentials.");
             }
 
-            if (_passwordService.Validate(loginData.Password, account.Password))
-            {
-                return _authTokenService.CreateToken(account.Username);
-            }
-            else
-            {
-                throw new EntityUnavailableException("Invalid credentials.");
-            }
+            return _authToken.CreateToken(user.Username);
         }
 
-        public string RegisterUser(RegistrationDTO registrationData)
+        public string SignUp(RegisterRequest registerRequest)
         {
-            if (_databaseContext.Users.Any(u => u.Username == registrationData.Username))
-            {
-                throw new EntityConflictException("Username", registrationData.Username);
-            }
+            if (_db.Users.Any(u => u.Username == registerRequest.Email))
+                throw new EntityConflictException("Username", registerRequest.Email);
 
-            if (_databaseContext.Users.Any(u => u.Email == registrationData.Email))
-            {
-                throw new EntityConflictException("Email", registrationData.Email);
-            }
+            string profileImageName = _storage.Upload(registerRequest.);
 
-            string profileImageName = _fileService.SaveFile(registrationData.Image);
-
-            UserAccount newUser = _mapperService.Map<UserAccount>(registrationData);
+            var newUser = _mapper.Map<Users>(registerRequest);
             newUser.Image = profileImageName;
-            newUser.Password = _passwordService.HashPassword(registrationData.Password);
+            newUser.Password = _passwords.Encrypt(registerRequest.Password);
 
-            _databaseContext.Users.Add(newUser);
+            _db.Users.Add(newUser);
+            int changes = _db.SaveChanges();
 
-            int changesSaved = _databaseContext.SaveChanges();
-
-            if (changesSaved > 0)
+            if (changes > 0)
             {
-                return _authTokenService.CreateToken(newUser.Username);
+                return _authToken.CreateToken(newUser.Username);
             }
-            else
-            {
-                throw new SaveFailedException("User", newUser.Username);
-            }
+
+            throw new SaveFailedException("User", newUser.Username);
         }
 
-        public List<string> ListAllUsers()
+        public List<string> GetAllUsers()
         {
-            return _databaseContext.Users.Select(u => u.Username).ToList();
+            return _db.Users.Select(u => u.Username).ToList();
         }
 
-        public string GetUserProfileImage(string username)
+        public string GetProfileImagePath(string username)
         {
-            UserAccount account = _databaseContext.Users.FirstOrDefault(u => u.Username == username);
-
-            if (account == null)
+            var user = _db.Users.FirstOrDefault(u => u.Username == username);
+            if (user == null)
                 throw new EntityNotFoundException(username);
 
-            return account.Image;
+            return user.Image;
         }
     }
 }
